@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{.title}}</title>
+</head>
+<body>
+    <h2>{{.title}}</h2>
+    <p>{{.message}}</p>
+    {{if .extra}}
+    <div style="margin-top:20px; color: #888; font-size: 13px;">
+        {{.extra}}
+    </div>
+    {{end}}
+</body>
+</html> 
